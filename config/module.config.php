@@ -31,15 +31,6 @@ return array(
         'Grid\User'  => array(
             'features' => array(
                 'loginWith' => array(
-                    'Google'    => array(
-                        'enabled'   => true,
-                        'route'     => 'Grid\User\Authentication\LoginWidth',
-                        'options'   => array(
-                            'query' => array(
-                                'openid_identity' => urlencode( 'https://www.google.com/accounts/o8/id' ),
-                            ),
-                        ),
-                    ),
                     'Yahoo'     => array(
                         'enabled'   => true,
                         'route'     => 'Grid\User\Authentication\LoginWidth',
